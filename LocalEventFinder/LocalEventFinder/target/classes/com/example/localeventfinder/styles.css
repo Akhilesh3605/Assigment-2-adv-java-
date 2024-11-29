@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Set background color for the whole window */
+.root {
+    -fx-background-color: #f0f8ff;
+    -fx-padding: 20px;
+}
+
+/* Style for the label (welcome text) */
+.welcome-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50; /* Green color for the welcome text */
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+/* Style for the fetch events button */
+.action-button {
+    -fx-background-color: #4CAF50;  /* Green button */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Button hover effect */
+.action-button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Style for the ListView */
+.list-view {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-pref-height: 300px;
+    -fx-pref-width: 400px;
+}
+
+/* Style for the ListView items */
+.list-view .list-cell {
+    -fx-padding: 10px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-radius: 5px;
+    -fx-border-color: #dcdcdc;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #e1f7d5; /* Light green when hovered */
+}
+
+/* Style for the TextArea where event details are displayed */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 400px;
+}
